@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR-USERNAME/config-repo.git
+    repoURL: https://github.com/Neeraj-op/my-app-config-repo
     targetRevision: main
     path: manifests
   destination:
