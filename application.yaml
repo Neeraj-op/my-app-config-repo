@@ -1,13 +1,12 @@
-﻿# Test comment
-apiVersion: argoproj.io/v1alpha1
+﻿apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: nginx-app
+  name: my-app-argocd
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/Neeraj-op/my-app-config-repo
+    repoURL: https://github.com/YOUR-USERNAME/config-repo.git
     targetRevision: main
     path: manifests
   destination:
